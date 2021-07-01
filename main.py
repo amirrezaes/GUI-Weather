@@ -18,7 +18,7 @@ def connect():
     
     try:
 
-        f = requests.get('http://api.weatherstack.com/current?access_key=db8e08eb3b93ff4a5cda71c0c5f8b31d&query=' + str(entry.get())+'&units=m')
+        f = requests.get('http://api.weatherstack.com/current?access_key=<put your key here>&query=' + str(entry.get())+'&units=m')
         parsed_json = json.loads(f.text)
     except:
         
