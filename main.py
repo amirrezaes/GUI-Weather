@@ -1,6 +1,6 @@
 # coded by amirreza.es
 # weather script
-# online service: https://www.apixu.com
+# online service: https://weatherstack.com/
 import requests
 import json
 from tkinter import *
